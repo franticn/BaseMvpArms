@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.wuhenzhizao.titlebar.widget.CommonTitleBar
+        app:centerText="@string/home"
+        app:centerType="textView"
+        app:centerTextSize="17sp"
+        app:centerTextColor="@color/white"
+        android:id="@+id/titleBar"
+        app:rightType="imageButton"
+        app:rightImageResource="@mipmap/ic_calendar_white"
+        app:titleBarColor="@color/colorAccent"
+        app:statusBarColor="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <ImageView
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/ivWrite"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="18dp"
+        android:src="@mipmap/ic_write"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
